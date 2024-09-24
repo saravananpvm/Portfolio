@@ -6,14 +6,15 @@
     <title>Portofolio</title>
     <link rel="stylesheet" href="/style.css">
     <link rel="icon" href="/man.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
     <header>
-        <a class="logo" href="#">SARAVANAN</a>
+        <a class="logo" href="https://saravananpvm.netlify.app/">SARAVANAN</a>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Skills</a></li>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Skills">Skills</a></li>
                 <li><a href="#">Projects</a></li>
                 <li><a href="#">About Us</a></li>
             </ul>
@@ -22,9 +23,31 @@
     </header>
     <main id="Home">
         <img src="/IMG_20240826_180722_199.jpg" alt="SARAVANAN">
+        <div class="inf">
+            <h1>Saravanan</h1>
+            <b class="ux">Hi I'm a <span id="anim">Ui / UX Design</span></b>
+            <p>I am Studying Diploma Computer Sciece Engineering, <br> First Year Studying From Sir Isaac Newton Polytechnic Collage, <br> After Transfered From Sembodai Rv Polytechnic Collage</p>
+        </div>
     </main>
     <main id="Skills"></main>
     <main id="Projects"></main>
     <main id="About"></main>
+
+
+
+
+
+
+
+
+    <script type="text/javascript">
+        (function () {
+          var words = ["Ui / UX Design","Web Developer","Gamer"],
+          i = 0;
+          setInterval(function(){ $('#anim').fadeOut(function(){
+              $(this).html(words[(i = (i + 1) % words.length)]).fadeIn();
+            }); }, 3000)
+        })();
+      </script>
 </body>
 </html>
