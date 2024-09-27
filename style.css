@@ -20,6 +20,7 @@ header{
     background-color: #555;
     padding: 30px 50px 30px 50px;
     position: fixed;
+    z-index: 1000;
 }
 header .logo{
     color: #f60;
@@ -52,7 +53,7 @@ main img{
     width: 300px;
     height: 300px;
     margin: 260px 100px; 
-    border: 5px solid rgb(137, 137, 137);
+    border: 5px solid rgb(171, 171, 171);
     float: left;
     }
 #Home{
@@ -77,10 +78,40 @@ i{
 #Skills{
     width: auto;
     height: 700px;
-    background-color: rgb(255, 51, 238);
+    background-color: #626262;
 }
 #Projects{
     width: auto;
     height: 700px;
     background-color: #626262;
+}
+#About{
+    width: auto;
+    height: 700px;
+    background-color: #626262;
+}
+.about{
+    padding-top: 100px;
+    height: 200px;
+}
+.about h1{
+    color: #f60;
+    padding-left: 40px;
+    font-size: 50px;
+}
+.about p{
+    color:#bcbcbc;
+    padding-left: 40px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.mes{
+    margin-left: 800px;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+}
+.box{
+    margin: 10px;
+    border-radius: 20px;
 }
