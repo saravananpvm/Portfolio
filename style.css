@@ -13,7 +13,7 @@ li{
     list-style-type: none;
 }
 header{
-    width: 1250px;
+    width: 100%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -40,7 +40,8 @@ li a:hover,li a:active{
     border-radius: 50px;
     background-color: #f60;
     padding: 9px 25px;
-    margin-left: 50px;
+    margin-left: 20px;
+    margin-right: 120px;
 }
 .call:hover{
     background-color: rgb(235, 94, 0);
@@ -50,16 +51,17 @@ main img{
     border-radius: 50%;
     width: 300px;
     height: 300px;
-    margin: 215px 100px; 
-    border: 5px solid rgb(146, 146, 146);
+    margin: 260px 100px; 
+    border: 5px solid rgb(137, 137, 137);
     float: left;
-}
+    }
 #Home{
     width: auto;
-    height: 650px;
+    height: 750px;
+    background-color: #626262;
 }
 .inf{
-    padding-top: 310px;
+    padding-top: 350px;
 }
 .inf h1{
     color: #f60;
@@ -68,11 +70,16 @@ main img{
 #anim{
     color: rgb(255, 0, 128);
 }
+i{
+    margin: 5px 5px 0px 5px;
+}
+
 #Skills{
     width: auto;
     height: 700px;
     background-color: rgb(255, 51, 238);
 }
-i{
-    margin: 5px 5px 0px 5px;
+#Projects{
+    width: auto;
+    height: 700px;
 }
