@@ -62,7 +62,7 @@ main img{
     background-color: #626262;
 }
 .inf{
-    padding-top: 350px;
+    padding-top: 340px;
 }
 .inf h1{
     color: #f60;
@@ -87,7 +87,7 @@ i{
 }
 #About{
     width: 100%;
-    height: 700px;
+    height: 1000px;
     background-color: #626262;
 }
 .about{
@@ -106,12 +106,38 @@ i{
     margin-top: 10px;
 }
 .mes{
-    margin-left: 800px;
-    width: 300px;
-    height: 300px;
-    border: 2px solid black;
+    margin-left: 700px;
+    width: 500px;
+    height: 400px;
+    border: 6px solid #f60;
+    border-radius: 30px;
 }
 .box{
-    margin: 10px;
-    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 90px;
+}
+.box h1{
+    color: #f60;
+    font-size: 50px;
+}
+input{
+    width: 300px;
+    height: 15px;
+    border: 1px solid #bcbcbc;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+}
+.mesbox{
+    width: 300px;
+    height: 50px;
+}
+.box button{
+    padding: 5px 30px 5px 30px;
+    border: 1px solid rgb(151, 151, 151);
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background: #f60;
+    margin: 20px 0px 0px 110px;
+    font-size: 15px;
 }
