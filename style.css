@@ -91,19 +91,18 @@ main img{
     border-radius: 10px;
     margin-bottom: 10px;
 }
-
 .skill-bar {
     height: 25px;
     border-radius: 10px;
     text-align: center;
-    color: white;
+    
     line-height: 25px;
     transition: width 0.5s; /* Smooth transition */
 }
 
-.html { background-color: #e44d26; width: 90%; }
-.css { background-color: #264de4; width: 75%; }
-.javascript { background-color: #f7df1e; color: black; width: 10%; }
+.html { background-color: #FF671F; width: 90%; }
+.css { background-color: #b0b0b0; width: 75%; }
+.javascript { background-color: #046A38; color: black; width: 10%; }
 
 /* Style for the skill labels */
 .scontainer p {
