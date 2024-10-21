@@ -145,7 +145,7 @@ main img{
     background-color: coral;
     border: 5px solid #626262;
     border-radius: 30px;
-    margin: 80px; /* Reduced margin for better spacing */
+    margin: 100px; /* Reduced margin for better spacing */
     display: flex;
     flex-wrap: wrap;
     flex-grow: 1;
